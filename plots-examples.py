@@ -2,7 +2,7 @@ from scipy.io import arff
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data = arff.loadarff("C:\Data Science\Springboard\cc_fraud_detection.arff")
+data = arff.loadarff("\cc_fraud_detection.arff")
 
 df = pd.DataFrame(data[0])
 plt.subplot(1,2,1);
